@@ -1,0 +1,155 @@
+body {
+  padding-top: 00px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.show-grid {
+    margin-bottom: 15px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.ramka {
+     border: 3px solid #00a8e1;
+   }
+.tags
+{
+	word-spacing: 5px;
+}
+.popular_tags
+{
+	word-spacing: 5px;
+	line-height: 30px;
+}
+.popular_tags_important
+{	
+	font-size: 200%;  
+	color: #f35026;
+}
+.popular_tags_usual
+{	font-size: 100%;
+	 color:rgb(1, 200, 56);
+}
+.popular_tags_medium
+{	font-size: 150%;
+	 color: rgb(49, 151, 116);
+}
+.best_members
+{	
+	font-size: 120%;
+}
+.like_button{
+	margin: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+.rate{
+	padding-top: 15px;
+	padding-left: 25px;	
+	font-size: 130%;
+}
+.rate_button
+{
+	padding-top: 15px;
+	font-size: 50%;
+}
+
+.navbar_search {
+		display: inline-block;
+		margin-top: 5px;
+}
+
+.navbar_search > input {
+	display: inline;
+}
+
+.navbar_search > button {
+
+}
+
+.navbar_right {
+	float: right;
+}
+
+.navbar_right_name, .navbar_right_action {
+	display: inline-block;
+}
+
+.navbar_right_name {
+	margin-left: -30px;
+}
+
+.navbar_right_image {
+	width: 50px;
+	height: 50px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+
+}
+.navbar_pic {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 4px;
+	margin-top: -20px;
+	margin-right: 10px;
+}
+.navbar_list{
+	line-height: 1.5;	
+	font-size: 120%;
+	margin-right: 70px;
+
+}
+.navbar_not_logined
+{
+	margin-top: 15px;
+	margin-right: 140px;
+	display: inline-block;
+	float: right;
+	font-size: 120%;
+}
+.checkbox1
+{
+	margin-top: 10px;
+	padding-top: 10px;
+ 	
+}
+
+hr.style-seven {
+    
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
