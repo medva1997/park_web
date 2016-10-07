@@ -32,26 +32,39 @@
           <span class="icon-bar"></span>
         </button>
 
-        <a class="navbar-brand"  style="margin-top: 5px" href="#">ASK-MEDVEDEV</a>
+        <a class="navbar-brand navbar_sitename" href="index.html">ASK-MEDVEDEV</a>
 
         <div class="navbar_search">
           <form class="navbar-form" role="search">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-              <div class="input-group-btn">
-                <button class="btn btn-default" type="submit" class="btn btn-default">Ask!</button>
+              
+              <input type="text" class="form-control" placeholder="" name="srch-term" id="srch-term">
+              <div class="input-group-btn" >
+               <button type="submit" class="btn glyphicon glyphicon-search nav_search_button" aria-hidden="true" ></button>
               </div>
             </div>
           </form>
         </div>
       </div>
 
+
+      <div class="navbar_search">
+          <form class="navbar-form" role="ask" action="ask.html">
+            <div class="input-group">              
+              <div class="input-group-btn" >               
+               <button class="btn btn-default" type="submit" class="btn btn-default">Ask!</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      
+         
       <!--  Not login 
       <div class="navbar_not_logined">     
-        <a  href="#">Log in &nbsp;&nbsp;</a>
-        <a  href="#">Register </a>
+        <a  href="login.html">Log in &nbsp;&nbsp;</a>
+        <a  href="register.html">Register </a>
       </div>
-       END Not login-->
+      END Not login-->
 
       <!-- Logined -->
       <div class="navbar_right">
@@ -59,12 +72,12 @@
         <div class="navbar_right_name">                              
           <ul type="none" class="navbar_list">
            <li>Mr. Alexey</li>
-           <li> <a  href="#">Setting&nbsp;&nbsp;</a>
+           <li> <a  href="settings.html">Setting&nbsp;&nbsp;</a>
                 <a  href="#">Log out</a> </li>
           </ul>
         </div>              
       </div>
-       <!-- END Logined -->
+         <!-- END Logined -->
 
     </div>
    </div>
@@ -78,12 +91,12 @@
         <div class="col-md-9 ">          
           <h2> Teg: C++  </h2> 
           <ul class="list-group" type="none">
-            <!-- Start Question-->
+             <!-- Start Question-->
             <li>
               <div class="panel panel-default">
                 <div class="panel-body">
                   <div class="col-md-2">                      
-                    <img src="static/img/1.jpg"  class="img-rounded" style="width: 100px; height: 100px;" >
+                    <img src="static/img/3.jpg"  class="img-rounded" style="width: 100px; height: 100px;" >
                                                        
                       <div id="rate" class="col-md-1 rate">
                         <span>1</span>
@@ -96,21 +109,23 @@
                    <!-- <label for="movie">rate: </label><input id="movie" type="number" value="0"/>-->
                   </div>
                   <div class="col-md-10">
-                    <h4> <a href="#"> Reading CSV file and storing values into an array? </a> </h4>
+                    <h4> <a href="question.html"> Reading CSV file and storing values into an array? </a> </h4>
                     <p>Нет страшнее зверя в сибирских лесах, чем разъяренный заяц-мутант.  
                     Вы видели, какие у него зубы? О, даже медведь боится этих зубов! А, как известно, 
                     медведи больше ничего не боятся.Нет страшнее зверя в сибирских лесах, чем разъяренный заяц-мутант.Вы видели, какие у него зубы? О, даже медведь боится этих зубов! А, как известно, медведи больше ничего не боятся.</p>
-                    <div class="col-md-6">
-                        <a href="#">Answers <span class="badge">14</span> </a>
-                    </div>
-                    <div class="col-md-6 tags">
-                      Tags: 
-                      <a href="#"> C++</a>
-                      <a href="#"> C#</a>
-                      <a href="#"> Python</a>
-                      <a href="#"> Php</a>
-                      <a href="#"> Perl</a>
-                      <a href="#"> Pascal</a>
+                    <div class="question_answers_and_tegs_block">
+                      <div class="col-md-6">
+                          <a href="question.html">Answers <span class="badge">14</span> </a>
+                      </div>
+                      <div class="col-md-6 tags">
+                        Tags: 
+                        <a href="bytag.html"> C++</a>
+                        <a href="bytag.html"> C#</a>
+                        <a href="bytag.html"> Python</a>
+                        <a href="bytag.html"> Php</a>
+                        <a href="bytag.html"> Perl</a>
+                        <a href="bytag.html"> Pascal</a>
+                      </div>
                     </div>
                   </div> 
                 </div> 
@@ -123,7 +138,7 @@
               <div class="panel panel-default">
                 <div class="panel-body">
                   <div class="col-md-2">                      
-                    <img src="static/img/2.jpg"  class="img-rounded" style="width: 100px; height: 100px;" >
+                    <img src="static/img/1.jpg"  class="img-rounded" style="width: 100px; height: 100px;" >
                     <div id="rate" class="col-md-1 rate">
                         <span>1</span>
                       </div>
@@ -133,21 +148,23 @@
                       </div>
                   </div>
                   <div class="col-md-10">
-                    <h4> <a href="#"> Reading CSV file and storing values into an array? </a> </h4>
+                    <h4> <a href="question.html"> Reading CSV file and storing values into an array? </a> </h4>
                     <p>Нет страшнее зверя в сибирских лесах, чем разъяренный заяц-мутант.  
                     Вы видели, какие у него зубы? О, даже медведь боится этих зубов! А, как известно, 
                     медведи больше ничего не боятся.</p>
-                    <div class="col-md-6">
-                        <a href="#">Answers <span class="badge">14</span> </a>
-                    </div>
-                    <div class="col-md-6 tags">
-                      Tags: 
-                      <a href="#"> C++</a>
-                      <a href="#"> C#</a>
-                      <a href="#"> Python</a>
-                      <a href="#"> Php</a>
-                      <a href="#"> Perl</a>
-                      <a href="#"> Pascal</a>
+                    <div class="question_answers_and_tegs_block">
+                      <div class="col-md-6">
+                          <a href="question.html">Answers <span class="badge">14</span> </a>
+                      </div>
+                      <div class="col-md-6 tags">
+                        Tags: 
+                        <a href="bytag.html"> C++</a>
+                        <a href="bytag.html"> C#</a>
+                        <a href="bytag.html"> Python</a>
+                        <a href="bytag.html"> Php</a>
+                        <a href="bytag.html"> Perl</a>
+                        <a href="bytag.html"> Pascal</a>
+                      </div>
                     </div>
                   </div> 
                 </div> 
@@ -185,12 +202,12 @@
          <!-- right column Popular tags-->
          <h2> Popular tags</h2>
            <div class="popular_tags">
-            <a href="#" class="popular_tags_important"> C++</a>
-            <a href="#"> C#</a>
-            <a href="#" class="popular_tags_usual"> Php</a>
-            <a href="#" class="popular_tags_medium"> Python</a>
-            <a href="#"> Perl</a>
-            <a href="#" class="popular_tags_medium"> Pascal</a>
+            <a href="bytag.html" class="popular_tags_important"> C++</a>
+            <a href="bytag.html"> C#</a>
+            <a href="bytag.html" class="popular_tags_usual"> Php</a>
+            <a href="bytag.html" class="popular_tags_medium"> Python</a>
+            <a href="bytag.html"> Perl</a>
+            <a href="bytag.html" class="popular_tags_medium"> Pascal</a>
           </div>
          <!--END right column Popular tags-->  
 
@@ -217,4 +234,4 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
   </body>
-</html>    
+</html>   
